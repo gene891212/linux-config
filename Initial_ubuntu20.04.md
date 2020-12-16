@@ -9,6 +9,9 @@ xdg-user-dirs-gtk-update
 - Something
 ```sh
 sudo apt install curl
+
+# Chinese input
+sudo apt-get install hime
 ```
 
 - Git
@@ -46,6 +49,7 @@ sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
+    curl \
     gnupg-agent \
     software-properties-common
 
@@ -150,7 +154,7 @@ p10k configure
 
 - Use My Theme
 
-Copy my `.zshrc` and `.p10k.zsh` to your home directory
+Please install Powerlevel10k theme first and download my `.zshrc` and `.p10k.zsh` to your home directory
 ```sh
 cp .zshrc ~/
 cp .p10k.zsh ~/
