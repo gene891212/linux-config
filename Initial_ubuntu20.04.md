@@ -18,6 +18,34 @@ sudo apt install curl
 sudo apt-get install hime
 ```
 
+- Nautilus-actions
+
+It allows the configuration of programs to be launched on files selectedin the Nautilus interface.
+
+![](img/Nautilus-actions_1.png)
+
+```sh
+sudo apt install nautilus-actions
+```
+
+Run the configuration tool
+   
+```sh
+fma-config-tool
+```
+
+Add a new action and enter the setting below
+
+![](img/Nautilus-actions_2.png)
+
+![](img/Nautilus-actions_3.png)
+
+Restart nautilus
+
+```sh
+nautilus -q
+```
+
 - Chinese Input
 
 ```sh
