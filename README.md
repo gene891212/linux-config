@@ -1,4 +1,4 @@
-# ubuntu_and_grub-configuration
+# ubuntu20.04_configuration
 
 ## Ubuntu Setting
 
