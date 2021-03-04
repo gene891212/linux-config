@@ -1,0 +1,10 @@
+* [Headline](README.md)
+* grub
+* ubuntu
+    * [zsh](ubuntu/zsh.md)
+    * [nautilus](ubuntu/nautilus.md)
+    * [python](ubuntu/python.md)
+    * [font](ubuntu/font.md)
+    * [something](ubuntu/something.md)
+    * [vscode](ubuntu/vscode.md)
+    * [docker](ubuntu/docker.md)
