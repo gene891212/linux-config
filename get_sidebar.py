@@ -4,7 +4,7 @@ TITLE = "* {}"
 SUBTITLE = "    * [{}]({})"
 IGNORE_DIRS = [
     ".git",
-    "img",
+    "old",
 ]
 
 
