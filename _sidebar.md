@@ -4,9 +4,9 @@
 * ubuntu
     * [Nautilus](ubuntu/Nautilus.md)
     * [Something](ubuntu/Something.md)
-    * [Zsh](ubuntu/Zsh.md)
     * [Python](ubuntu/Python.md)
+    * [ZSH](ubuntu/ZSH.md)
     * [Font](ubuntu/Font.md)
-    * [VScode](ubuntu/VScode.md)
+    * [VSCode](ubuntu/VSCode.md)
     * [Docker](ubuntu/Docker.md)
     * [Git](ubuntu/Git.md)

@@ -5,6 +5,7 @@ SUBTITLE = "    * [{}]({})"
 IGNORE_DIRS = [
     ".git",
     "old",
+    "static"
 ]
 
 

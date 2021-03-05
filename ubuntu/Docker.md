@@ -2,7 +2,7 @@
 
 ## Install
 
-```sh
+```bash
 sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
@@ -25,7 +25,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 Set Docker without using sudo
 
-```sh
+```bash
 # You can use "grep docker /etc/group" to check is successed
 sudo usermod -aG docker $(whoami)
 

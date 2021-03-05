@@ -1,10 +1,8 @@
 # Python
 
-## Install
+## Install custom version
 
-Install custom version
-
-```sh
+```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 
@@ -14,9 +12,9 @@ sudo apt install python3.6
 sudo apt install python3.7
 ```
 
-Install pip and some package
+## Install pip and some package
 
-```sh
+```bash
 sudo apt install python3-pip
 pip3 install pipenv
 ```

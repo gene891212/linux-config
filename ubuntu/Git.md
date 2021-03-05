@@ -2,7 +2,7 @@
 
 ## Install
 
-```sh
+```bash
 sudo apt install git
 
 # git config

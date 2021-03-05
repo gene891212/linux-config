@@ -1,8 +1,6 @@
 # Grub2
 
-## Install
-
-### Install Graphic Tool Of Grub
+## Install Graphic Tool Of Grub
 
 ```sh
 sudo apt install grub-customizer
@@ -12,7 +10,7 @@ You can change `menu` and `timeout` in the grub-customizer
 grub-customizer
 ```
 
-### Install Theme
+## Install Theme
 
 Install theme on [GROME-LOOK.ORG](https://www.gnome-look.org/browse/cat/109/order/latest/)
 
