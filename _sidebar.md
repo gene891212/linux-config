@@ -2,6 +2,7 @@
 * grub
     * [Grub](grub/Grub.md)
 * ubuntu
+    * [Nodejs](ubuntu/Nodejs.md)
     * [Nautilus](ubuntu/Nautilus.md)
     * [Something](ubuntu/Something.md)
     * [Python](ubuntu/Python.md)
