@@ -23,7 +23,7 @@ class GenerateSidebar():
             if root == "./":
                 continue
             title = root.split("./")[-1]
-            self.write(TITLE.format(title))
+            self.write(TITLE.format(title.capitalize()))
             for file in files:
                 self.write(SUBTITLE.format(file[:-3], f"{title}/{file}"))
         self.f.close()

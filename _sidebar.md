@@ -1,10 +1,11 @@
 * [Headline](README.md)
-* grub
+* Grub
     * [Grub](grub/Grub.md)
-* ubuntu
+* Ubuntu
     * [Nodejs](ubuntu/Nodejs.md)
     * [Nautilus](ubuntu/Nautilus.md)
     * [Something](ubuntu/Something.md)
+    * [Bat](ubuntu/Bat.md)
     * [Python](ubuntu/Python.md)
     * [ZSH](ubuntu/ZSH.md)
     * [Font](ubuntu/Font.md)
