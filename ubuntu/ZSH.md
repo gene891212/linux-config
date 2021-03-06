@@ -33,6 +33,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
+- [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
+
+> Reminds you to use your aliases for a command you typed
+
+```bash
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+```
+
 Activate the plugin in ~/.zshrc
 
 ```bash
@@ -42,7 +50,7 @@ nano ~/.zshrc
 Edit the line `plugins=(.....)` to
 
 ```bash
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions you-should-use)
 ```
 
 ## Install Theme

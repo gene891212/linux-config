@@ -1,34 +1,51 @@
 import os
+import re
 
 TITLE = "* {}"
 SUBTITLE = "    * [{}]({})"
+TOC_TITLE = "\n### {}\n"
+TOC_LIST = "* [{}]({})"
 IGNORE_DIRS = [
     ".git",
     "old",
-    "static"
+    "static",
 ]
 
 
-class GenerateSidebar():
-    f = open("_sidebar.md", "w")
+class Generate():
+    """
+    Get _sidebar.md and README.md's TOC automatic,
+    please input the directory you want to ignore in 'IGNORE_DIRS'
+    """
+    sidebar = open("_sidebar.md", "w")
+    readme = open("README.md", "r+")
 
-    def write(self, content):
-        self.f.write(content + "\n")
+    def write(self, f, content):
+        f.write(content + "\n")
 
-    def get_sidebar(self):
+    def main(self):
+        pattern = r'[\s\S]*Table Of Contents'
+        toc = re.search(pattern, self.readme.read()).group()
+        self.readme.seek(0)
+        self.write(self.readme, toc)
+        self.write(self.sidebar, "* [Headline](README.md)")
+
         tree = os.walk("./", topdown=True)
-        self.write("* [Headline](README.md)")
         for root, dirs, files in tree:
             dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
             if root == "./":
                 continue
             title = root.split("./")[-1]
-            self.write(TITLE.format(title.capitalize()))
+            self.write(self.readme, TOC_TITLE.format(title.capitalize()))
+            self.write(self.sidebar, TITLE.format(title.capitalize()))
             for file in files:
-                self.write(SUBTITLE.format(file[:-3], f"{title}/{file}"))
-        self.f.close()
+                subtitle, path = file[:-3], f"{title}/{file}"
+                self.write(self.readme, TOC_LIST.format(subtitle, path))
+                self.write(self.sidebar, SUBTITLE.format(subtitle, path))
+        self.sidebar.close()
+        self.readme.close()
 
 
 if __name__ == '__main__':
-    hi = GenerateSidebar()
-    hi.get_sidebar()
+    hi = Generate()
+    hi.main()
