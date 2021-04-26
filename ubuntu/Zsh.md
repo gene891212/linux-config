@@ -1,4 +1,4 @@
-# ZSH
+# Zsh
 
 ## Install Z Shell
 
@@ -66,3 +66,7 @@ You can use the command to change your style
 ```bash
 p10k configure
 ```
+
+## Reference 
+
+- [oh-my-zsh Github](https://github.com/ohmyzsh/ohmyzsh)
