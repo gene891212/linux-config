@@ -9,6 +9,7 @@
     * [Font](ubuntu/Font.md)
     * [VSCode](ubuntu/VSCode.md)
     * [Bat](ubuntu/Bat.md)
+    * [Golang](ubuntu/Golang.md)
     * [Nodejs](ubuntu/Nodejs.md)
     * [Docker](ubuntu/Docker.md)
     * [Zsh](ubuntu/Zsh.md)
