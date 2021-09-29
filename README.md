@@ -1,7 +1,5 @@
 # Linux Configuration
 
-View on the [github page](https://gene891212.github.io/ubuntu-configuration)
-
 ## Table Of Contents
 
 ### Grub
